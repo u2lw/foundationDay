@@ -1,0 +1,194 @@
+ /*  اعدادات الصفحة  */ 
+body{
+    background-color: #b1aeab;
+    font-family: system-ui, 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+h1{
+    text-align: center;
+    color: #4C4F59;
+}
+h2{
+    color: #4C4F59;
+    
+}
+
+#a{
+    text-align: center;
+}
+
+#INTERDUCE{
+    text-shadow: #4C4F59;
+
+}
+
+#vid{
+    text-align: center;
+}
+
+/* خصائص الروابط */
+#hist{
+    text-align: center;
+    position: sticky;
+    top: 50px;
+    right: 100px;
+    left: 100px;
+    display: inline-block;
+    color: white;
+    background: rgb(109, 161, 161);
+    border: 2px solid #8d8d8d;
+    border-radius: 4px;
+    padding: 15px 50px;
+    text-decoration: none;
+    font-family: sans-serif,'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 17px;
+}
+#hist:hover{
+    background-color: rgb(81, 184, 184);
+    border-color: #8d8d8d;
+
+}
+
+#king{
+    text-align: center;
+    position:sticky;
+    top: 50px;
+    right: 550px;
+    left: 100px;
+    display: inline-block;
+    color: white;
+    background: rgb(109, 161, 161);
+    border: 2px solid #8d8d8d;
+    border-radius: 4px;
+    padding: 15px 50px;
+    text-decoration: none;
+    font-family: sans-serif,'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 17px;
+    
+}
+#king:hover{
+    background-color: rgb(81, 184, 184);
+    border-color: #8d8d8d;
+
+}
+#eco{
+    text-align: center;
+    position: sticky;
+    top: 50px;
+    right: 1000px;
+    left: 100px;
+    display: inline-block;
+    color: white;
+    background: rgb(109, 161, 161);
+    border: 2px solid #8d8d8d;
+    border-radius: 4px;
+    padding: 15px 50px;
+    text-decoration: none;
+    font-family: sans-serif,'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 17px;
+}
+#eco:hover{
+    background-color: rgb(81, 184, 184);
+    border-color: #8d8d8d;
+
+}
+    
+#cont{
+    text-align: center;
+    color: white;
+    background: rgb(109, 161, 161);
+    border: 2px solid #8d8d8d;
+    border-radius: 4px;
+    padding: 15px 50px 15px 50px;
+    text-decoration: none;
+    font-family: sans-serif,'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 17px;
+}
+
+
+#cont:hover{
+    background-color: rgb(81, 184, 184);
+    border-color: #8d8d8d;
+
+}
+
+
+
+/*   */
+#hestory-interduce{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+li{
+    font-style: italic;
+    font-weight: bold;
+}
+
+#history-ol{
+
+    font-size: 16px;
+
+}
+
+img{
+text-align: center;
+}
+
+
+label{
+    font-weight: bold;
+}
+
+input{
+    box-sizing: border-box;
+    padding: 10px 15px;
+    margin-top: 8px;
+    margin-bottom: 20px;
+    border: 2px solid darkgray;
+    outline: none;
+    border-radius: 4px;
+    transition: 0.4s;
+    background: linen;
+}
+input:focus {
+    border-color: rgb(51, 100, 112);
+    background: rgb(226, 223, 190);
+}
+
+textarea[type=text]{
+    width: 300px;
+    height: 150px;
+    resize: none;
+    transition: 0.5s;
+    background: linen;
+   
+    
+}
+textarea[type=text]:focus{
+    border-color: rgb(51, 100, 112);
+    background: rgb(226, 223, 190);
+}
+fieldset{
+    width: 85%;
+    border-color: rgb(62, 139, 139);
+    
+  
+}
+
+h2{
+    text-align: center;
+    color: #4C4F59;
+}
+#imgg{
+    text-align: center;
+}
+
+ol{
+    list-style-type:decimal;
+}
+
+ul{
+    list-style-type:disc;  
+
+}
